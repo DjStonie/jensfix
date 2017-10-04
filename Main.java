@@ -39,11 +39,10 @@ public class Main {
             e.printStackTrace();
         }
     	
-        outerloop:
         for (int j = 0; j < kager.length; j++) {
             if (kager[j] != null) {
             	take = j;
-                break outerloop;
+                break;
             }
         }
         if (take == -1){
